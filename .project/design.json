@@ -1,0 +1,12 @@
+{
+  "Tags": [
+    {
+      "Key": "SFDC"
+    },
+    {
+      "Key": "TestAutomation"
+    }
+  ],
+  "SeparateRuntimeDependencies": false,
+  "IncludeSources": true
+}
