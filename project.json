@@ -55,6 +55,15 @@
       {
         "templateType": "ExecutionTemplate",
         "fileName": ".templates\\TC_ExecTemplate.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "3770cb69-0807-42fb-9186-a6d87a5f9f27",
+        "executionTemplatePath": ".templates\\TC_ExecTemplate.xaml",
+        "testCaseType": "TestCase",
+        "executionTemplateType": "Local",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TestCases\\DemoTestCase1.xaml"
       }
     ],
     "saveToCloud": false
