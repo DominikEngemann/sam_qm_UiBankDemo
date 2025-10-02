@@ -94,7 +94,7 @@
       <AssemblyReference>System.Linq.Expressions</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="DemoTestCase1" sap:VirtualizedContainerService.HintSize="1276,1482" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="DemoTestCase1" sap:VirtualizedContainerService.HintSize="1276,1655" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="str_SFDC_HomeURL" />
       <Variable x:TypeArguments="x:String" Name="str_SFDCLoginURL" />
@@ -164,7 +164,7 @@
         </TryCatch.Catches>
       </TryCatch>
     </Sequence>
-    <Sequence DisplayName="... When" sap:VirtualizedContainerService.HintSize="551,576" sap2010:WorkflowViewState.IdRef="Sequence_3">
+    <Sequence DisplayName="... When" sap:VirtualizedContainerService.HintSize="551,749" sap2010:WorkflowViewState.IdRef="Sequence_3">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -172,6 +172,7 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
       <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="438,173" sap2010:WorkflowViewState.IdRef="LogMessage_4" Message="[&quot;test1&quot;]" />
+      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="438,173" sap2010:WorkflowViewState.IdRef="LogMessage_5" Message="[&quot;test1&quot;]" />
       <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="438,311" sap2010:WorkflowViewState.IdRef="TryCatch_2">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
