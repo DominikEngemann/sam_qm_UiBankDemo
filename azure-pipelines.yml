@@ -10,9 +10,12 @@ pool:
   vmImage: windows-latest
 
 steps:
-- task: UiPathPack@6
+- task: UiPathTest@6
   inputs:
-    projectJsonPath: '$(Build.SourcesDirectory)'
-    versionType: 'AutoVersion'
-    outputPath: '$(Build.ArtifactStagingDirectory)\Output'
+    testTarget: 'TestSet'
     orchestratorConnection: 'UiPath Test Orchestrator'
+    projectKey: 'DEMO'
+    testSet: 'DEMO:606'
+    folderName: 'Global/Projects/Agentic Testing POC'
+    skipResultsPublishing: true
+    attachRobotLogs: true
