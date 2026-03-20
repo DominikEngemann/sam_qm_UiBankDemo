@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "Email ID": {
+      "default": "Hunter@Senkowski.com"
+    },
+    "Loan Amount": {
+      "default": "71553"
+    },
+    "Yearly Income": {
+      "default": "39042"
+    },
+    "Loan Term": {
+      "default": "5"
+    },
+    "Age": {
+      "default": "18"
+    },
+    "Loan Status": {
+      "default": "Approved"
+    }
+  }
+}

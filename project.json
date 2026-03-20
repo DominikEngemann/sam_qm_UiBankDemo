@@ -5,16 +5,16 @@
   "main": "Main.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.23.4]",
-    "UiPath.System.Activities": "[23.10.5]",
-    "UiPath.Testing.Activities": "[23.10.1]",
-    "UiPath.UIAutomation.Activities": "[23.10.7]",
+    "UiPath.System.Activities": "[24.10.8]",
+    "UiPath.Testing.Activities": "[24.10.4]",
+    "UiPath.UIAutomation.Activities": "[24.10.14]",
     "UiPath.Word.Activities": "[1.20.3]"
   },
   "webServices": [],
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "23.10.4.0",
-  "projectVersion": "1.0.192386173",
+  "projectVersion": "1.0.1",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
@@ -41,7 +41,9 @@
       "privateWorkflows": []
     },
     "processOptions": {
-      "ignoredFiles": []
+      "ignoredFiles": [
+        "UiBank_CreateLoan.xaml"
+      ]
     },
     "fileInfoCollection": [
       {
@@ -57,7 +59,7 @@
         "fileName": ".templates\\TC_ExecTemplate.xaml"
       },
       {
-        "editingStatus": "InProgress",
+        "editingStatus": "Publishable",
         "testCaseId": "3770cb69-0807-42fb-9186-a6d87a5f9f27",
         "executionTemplatePath": ".templates\\TC_ExecTemplate.xaml",
         "testCaseType": "TestCase",
